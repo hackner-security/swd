@@ -138,7 +138,7 @@ bool SIPClient::Register() {
   delete msg;
 
   if (registered) {
-    Logger::GetLogger()->Log("Registration successfull.", LOG_LVL_STATUS, threadid);
+    Logger::GetLogger()->Log("Registration successful.", LOG_LVL_STATUS, threadid);
   } else {
     Logger::GetLogger()->Log("Registration failed.", LOG_LVL_ERROR, threadid);
   }
